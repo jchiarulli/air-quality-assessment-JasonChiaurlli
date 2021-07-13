@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #0091e6;
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: #e68200;
+  text-align: center;
+}
+
+.content {
+  max-width: 60rem;
+  margin: 2.5rem auto;
+  padding: 1.25rem;
+}
+.city-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.city-dropdown {
+  max-width: 29rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.city-dropdown select {
+  width: 100%;
+  padding: 0.375rem 0.625rem;
+  margin-top: 1.875rem;
+  margin-bottom: 0.75rem;
+  border: 0.125rem solid #999999;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 0.313rem;
+  color: #1a0e00;
+  background-image: radial-gradient(circle at center center, #a6a6a6, #999999);
+}
+
+.city-dropdown select:hover {
+  cursor: pointer;
+}
+
+.city-data {
+  border: 0.125rem solid #5b86ec;
+  box-shadow: 0 0.5rem 1rem 0 #5b86ec;
+  transition: 0.2s;
+  border-radius: 1.563rem;
+  padding: 0.625rem 1.25rem 1.25rem;
+  color: #1a0e00;
+  background-image: radial-gradient(circle at center center, #8fabf0, #5b86ec);
+}
+
+.city-data:hover {
+  box-shadow: 0.125rem 0.5rem 1rem 0.125rem #1b57e4;
+}
+
+.city-data {
+  text-align: left;
+}
+
+.city-data * :not(:last-child) {
+  padding-bottom: 0.625rem;
+}
+
+.city-data-name {
+  padding-top: 0.625rem;
+}
+
+.nested-data {
+  padding-left: 5.938rem;
+}
+
+.nested-data p:last-of-type {
+  padding-bottom: 0;
+}
+
+hr {
+  background-color: #1a0e00;
+  height: 0.063rem;
+  border: 0;
+}
